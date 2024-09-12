@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md"
               }
             }
           }
@@ -148,5 +148,29 @@
     }
   },
   "active": "d03d350725961813",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Cyber Security/HackTheBox/Starting Point/Tier 1/Crocodile.md",
+    "Cyber Security/HackTheBox/Starting Point/Tier 1/Appointment.md",
+    "Assets/Pasted image 20231105113405.png",
+    "Cyber Security/CTFLearn/Programming/simple_programming/solv.py",
+    "Cyber Security/CTFLearn/Programming/simple_programming/data.dat",
+    "Cyber Security/CTFLearn/Programming/simple_programming",
+    "Cyber Security/CTFLearn/Programming",
+    "Cyber Security/CTFLearn/Web/dontbumpyourheader",
+    "Cyber Security/CTFLearn/Web/POST_Practice",
+    "Cyber Security/CTFLearn/Web/My_blog",
+    "Cyber Security/CTFLearn/Web/Inj3ction_Time",
+    "Cyber Security/CTFLearn/Web/Basic_Injection",
+    "Cyber Security/CTFLearn/Web",
+    "Cyber Security/CTFLearn/Forensics/07601/_AGT.png.extracted/Secret Stuff.../Don't Open This.../I Warned You.jpeg",
+    "Cyber Security/CTFLearn/Miscellaneous/QRCode/qrcode.39907201.png",
+    "Cyber Security/CTFLearn/Forensics/snowboard/Snowboard.jpg",
+    "Cyber Security/CTFLearn/Forensics/exif/Computer-Password-Security-Hacker - Copy.jpg",
+    "Cyber Security/CTFLearn/Forensics/Wow_so_meta/3UWLBAUCb9Z2.jpg",
+    "Cyber Security/CTFLearn/Forensics/Rubber_Duck/RubberDuck.jpg",
+    "Cyber Security/CTFLearn/Forensics/PikesPeak/PikesPeak.jpg",
+    "Cyber Security/CTFLearn/Forensics/Forensics_101/95f6edfb66ef42d774a5a34581f19052.jpg",
+    "Cyber Security/CTFLearn/Forensics/Corrupted_file/unopenable.gif",
+    "README.md"
+  ]
 }
