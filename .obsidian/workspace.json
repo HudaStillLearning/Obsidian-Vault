@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md"
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md"
               }
             }
+          },
+          {
+            "id": "da86ca30a0d0a2c1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -149,9 +158,23 @@
   },
   "active": "d03d350725961813",
   "lastOpenFiles": [
+    "Pasted image 20240915063607.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Hex.md",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
+    "Pasted image 20240915063145.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/ASCII.md",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Great_Snakes.md",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Finding_Flags.md",
+    "Pasted image 20240915062421.png",
+    "Pasted image 20240915055317.png",
+    "Pasted image 20240915055148.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack",
+    "Cyber Security/Cryptohack",
+    "Assets/Pasted image 20231105113405.png",
+    "Assets/Screenshot 2023-11-08 at 09-24-16 Hack The Box Hack The Box.png",
+    "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
     "Cyber Security/HackTheBox/Starting Point/Tier 1/Crocodile.md",
     "Cyber Security/HackTheBox/Starting Point/Tier 1/Appointment.md",
-    "Assets/Pasted image 20231105113405.png",
     "Cyber Security/CTFLearn/Programming/simple_programming/solv.py",
     "Cyber Security/CTFLearn/Programming/simple_programming/data.dat",
     "Cyber Security/CTFLearn/Programming/simple_programming",
@@ -160,17 +183,10 @@
     "Cyber Security/CTFLearn/Web/POST_Practice",
     "Cyber Security/CTFLearn/Web/My_blog",
     "Cyber Security/CTFLearn/Web/Inj3ction_Time",
-    "Cyber Security/CTFLearn/Web/Basic_Injection",
-    "Cyber Security/CTFLearn/Web",
     "Cyber Security/CTFLearn/Forensics/07601/_AGT.png.extracted/Secret Stuff.../Don't Open This.../I Warned You.jpeg",
     "Cyber Security/CTFLearn/Miscellaneous/QRCode/qrcode.39907201.png",
     "Cyber Security/CTFLearn/Forensics/snowboard/Snowboard.jpg",
     "Cyber Security/CTFLearn/Forensics/exif/Computer-Password-Security-Hacker - Copy.jpg",
-    "Cyber Security/CTFLearn/Forensics/Wow_so_meta/3UWLBAUCb9Z2.jpg",
-    "Cyber Security/CTFLearn/Forensics/Rubber_Duck/RubberDuck.jpg",
-    "Cyber Security/CTFLearn/Forensics/PikesPeak/PikesPeak.jpg",
-    "Cyber Security/CTFLearn/Forensics/Forensics_101/95f6edfb66ef42d774a5a34581f19052.jpg",
-    "Cyber Security/CTFLearn/Forensics/Corrupted_file/unopenable.gif",
     "README.md"
   ]
 }
