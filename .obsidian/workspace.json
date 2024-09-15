@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/ASCII.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "751db38a94e58127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Starter.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Starter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Starter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md"
+                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Starter.md"
               }
             }
           },
@@ -156,22 +169,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d03d350725961813",
+  "active": "751db38a94e58127",
   "lastOpenFiles": [
-    "Pasted image 20240915063607.png",
-    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Hex.md",
-    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
-    "Pasted image 20240915063145.png",
-    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/ASCII.md",
-    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Great_Snakes.md",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Finding_Flags.md",
-    "Pasted image 20240915062421.png",
-    "Pasted image 20240915055317.png",
-    "Pasted image 20240915055148.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Favourite_byte.md",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/ASCII.md",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915085242.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915075104.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Starter.md",
+    "Pasted image 20240915085228.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/You_either_know-XOR_you_dont.md",
+    "Untitled.canvas",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Properties.md",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915073925.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915071023.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Bytes_and_Big_Integers.md",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915070420.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915062421.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Hex.md",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Great_Snakes.md",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915063607.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915063145.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915055317.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack",
+    "Assets/CryptoHack",
+    "Cyber Security/HackTheBox/Machines/Seasons/Analytics.md",
+    "Cyber Security/HackTheBox/Starting Point/Tier 0/Dancing.md",
+    "Cyber Security/HackTheBox/Machines/Seasons/Codify.md",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack",
     "Cyber Security/Cryptohack",
-    "Assets/Pasted image 20231105113405.png",
-    "Assets/Screenshot 2023-11-08 at 09-24-16 Hack The Box Hack The Box.png",
     "Cyber Security/HackTheBox/Starting Point/Tier 1/Responder.md",
     "Cyber Security/HackTheBox/Starting Point/Tier 1/Crocodile.md",
     "Cyber Security/HackTheBox/Starting Point/Tier 1/Appointment.md",
@@ -181,12 +208,6 @@
     "Cyber Security/CTFLearn/Programming",
     "Cyber Security/CTFLearn/Web/dontbumpyourheader",
     "Cyber Security/CTFLearn/Web/POST_Practice",
-    "Cyber Security/CTFLearn/Web/My_blog",
-    "Cyber Security/CTFLearn/Web/Inj3ction_Time",
-    "Cyber Security/CTFLearn/Forensics/07601/_AGT.png.extracted/Secret Stuff.../Don't Open This.../I Warned You.jpeg",
-    "Cyber Security/CTFLearn/Miscellaneous/QRCode/qrcode.39907201.png",
-    "Cyber Security/CTFLearn/Forensics/snowboard/Snowboard.jpg",
-    "Cyber Security/CTFLearn/Forensics/exif/Computer-Password-Security-Hacker - Copy.jpg",
     "README.md"
   ]
 }
