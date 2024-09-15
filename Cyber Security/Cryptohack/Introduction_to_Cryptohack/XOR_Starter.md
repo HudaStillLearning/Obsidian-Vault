@@ -1,4 +1,4 @@
-![[Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915071023.png]]
+![[/Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240915071023.png]]
 
 ## Solve
 ```python
