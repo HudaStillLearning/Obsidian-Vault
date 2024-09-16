@@ -1,4 +1,4 @@
-![[Pasted image 20240915073925.png]]
+![[Pasted image 20240916083152.png]]
 
 ## Solve
 ```python
