@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5e53da4d1dd3c6c8",
+        "id": "c5aceb0bf9802af2",
         "type": "tabs",
         "children": [
           {
-            "id": "751db38a94e58127",
+            "id": "542df675acb3a791",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/You_either_know-XOR_you_dont.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/You_either_know-XOR_you_dont.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/You_either_know-XOR_you_dont.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cyber Security/Cryptohack/Introduction_to_Cryptohack/You_either_know-XOR_you_dont.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,38 +148,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "751db38a94e58127",
+  "active": "542df675acb3a791",
   "lastOpenFiles": [
-    "Pasted image 20240916083233.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916083233.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916083212.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916083152.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916083057.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916083025.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916083003.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916082939.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916082838.png",
+    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/You_either_know-XOR_you_dont.md",
+    "Untitled.canvas",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Favourite_byte.md",
-    "Pasted image 20240916083212.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Properties.md",
-    "Pasted image 20240916083152.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/XOR_Starter.md",
-    "Pasted image 20240916083126.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916083126.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Bytes_and_Big_Integers.md",
-    "Pasted image 20240916083057.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Base64.md",
-    "Pasted image 20240916083025.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Hex.md",
-    "Pasted image 20240916083003.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/ASCII.md",
-    "Pasted image 20240916082939.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Great_Snakes.md",
-    "Pasted image 20240916082903.png",
+    "Assets/CryptoHack/Introduction_to_Cryptohack/Pasted image 20240916082903.png",
     "Cyber Security/Cryptohack/Introduction_to_Cryptohack/Finding_Flags.md",
-    "Pasted image 20240916082838.png",
     "Cyber Security/Cryptohack/Modular_Arithmetic/Modular_Inverting.md",
     "Cyber Security/Cryptohack/Modular_Arithmetic/Modular_Arithmetic-2.md",
     "Cyber Security/Cryptohack/Modular_Arithmetic/Modular_Arithmetic-1.md",
-    "Assets/CryptoHack/Modular_Arithmetic/Pasted image 20240916080853.png",
     "Cyber Security/Cryptohack/Modular_Arithmetic/Extended_GCD.md",
     "Cyber Security/Cryptohack/Modular_Arithmetic/Greatest_Common_Divisor.md",
     "Assets/CryptoHack/Modular_Arithmetic",
-    "Cyber Security/Cryptohack/Introduction_to_Cryptohack/You_either_know-XOR_you_dont.md",
     "Cyber Security/Cryptohack/Modular_Arithmetic",
     "Assets/CryptoHack/Introduction_to_Cryptohack.md",
-    "Untitled.canvas",
     "Assets/CryptoHack/Introduction_to_Cryptohack",
     "Assets/CryptoHack",
     "Cyber Security/HackTheBox/Machines/Seasons/Analytics.md",
