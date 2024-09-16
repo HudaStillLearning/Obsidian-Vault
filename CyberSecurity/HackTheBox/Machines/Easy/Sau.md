@@ -1,4 +1,4 @@
-![[Sau.png]]
+![Alt](/Assets/HackTheBox/Machines/Sau.png)
 #HackTheBox #Machines #Easy
 ## Scan Port
 ```bash
