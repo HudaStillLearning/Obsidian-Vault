@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "16701a65a937fe76",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "CyberSecurity/CTFLearn/Forensics/snowboard/Snowboard.jpg"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CyberSecurity/HackTheBox/Machines/Easy/Sau.md",
+                "file": "CyberSecurity/CTFLearn/Forensics/snowboard/Snowboard.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CyberSecurity/HackTheBox/Machines/Easy/Sau.md",
+                "file": "CyberSecurity/CTFLearn/Forensics/snowboard/Snowboard.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CyberSecurity/HackTheBox/Machines/Easy/Sau.md"
+                "file": "CyberSecurity/CTFLearn/Forensics/snowboard/Snowboard.jpg"
               }
             }
           },
@@ -156,8 +167,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17cddc8d5609a96a",
+  "active": "16701a65a937fe76",
   "lastOpenFiles": [
+    "Helpful/SQLi.md",
+    "Helpful/FFUF.md",
+    "Helpful/Bind Directory.md",
+    "Helpful",
+    "CyberSecurity/HackTheBox/Machines/Easy/Sau.md",
     "book/index.html",
     "book/CyberSecurity/HackTheBox/Machines/Easy/Sau.html",
     "book/CyberSecurity/HackTheBox/Machines/Easy/CozyHosting.html",
@@ -169,8 +185,6 @@
     "CyberSecurity/CyberSecurity/HackTheBox/Machines/Easy/CozyHosting.md",
     "CyberSecurity/CyberSecurity/HackTheBox/Machines/Easy",
     "CyberSecurity/CyberSecurity/HackTheBox/Machines",
-    "CyberSecurity/CyberSecurity/HackTheBox",
-    "CyberSecurity/CyberSecurity",
     "CyberSecurity/HackTheBox/Machines/README.md",
     "CyberSecurity/HackTheBox/Machines/SUMMARY.md",
     "CyberSecurity/HackTheBox/README.md",
@@ -193,7 +207,6 @@
     "Assets/HackTheBox/Machines/Sau-clear.png",
     "Assets/HackTheBox/Machines/Sau.png",
     "CyberSecurity/CryptoHack/Introduction_to_Cryptohack/README.md",
-    "CyberSecurity/CryptoHack/README.md",
     "book/CTFLearn/Forensics/07601/_AGT.png.extracted/Secret Stuff.../Don't Open This.../I Warned You.jpeg",
     "book/CTFLearn/Forensics/snowboard/Snowboard.jpg",
     "book/CTFLearn/Forensics/exif/Computer-Password-Security-Hacker - Copy.jpg",
@@ -202,8 +215,6 @@
     "book/CTFLearn/Forensics/Corrupted_file/unopenable.gif",
     "book/CTFLearn/Forensics/PikesPeak/PikesPeak.jpg",
     "book/CTFLearn/Forensics/Forensics_101/95f6edfb66ef42d774a5a34581f19052.jpg",
-    "CyberSecurity/HackTheBox/Starting_Point/Tier 1/Three.md",
-    "CyberSecurity/HackTheBox/Starting_Point/Tier 1/Sequel.md",
     "Untitled.canvas"
   ]
 }
